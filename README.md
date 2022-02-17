@@ -6,9 +6,9 @@ In this repository I have **my personal GNU/Linux PC (Ubuntu actually) configura
 ## Installing
 To **install** or **update** DGLPC, you should run the [install script](https://github.com/ddionich/my-linux-pc-config/install.sh). To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 ```sh 
-curl -o- https://raw.githubusercontent.com/ddionich/my-linux-pc-config/install.sh | sudo bash
+curl -o- https://raw.githubusercontent.com/ddionich/my-linux-pc-config/master/install.sh | sudo bash
 ```
 or
 ```sh
-wget -qO- https://raw.githubusercontent.com/ddionich/my-linux-pc-config/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/ddionich/my-linux-pc-config/master/install.sh | sudo bash
 ```
