@@ -3,7 +3,6 @@
 	printf '\n'
 	echo 'Actualizando librerías...'
 	sudo apt update -y
-	sudo apt upgrade -y
 	sudo apt install git -y								#Git
 	sudo apt install curl -y
 	sudo curl -o- https://raw.githubusercontent.com/ddionich/my-linux-pc-config/install.sh | sudo bash
@@ -84,6 +83,8 @@
 	mv -v gnome-extensions/* ~/.local/share/gnome-shell/extensions/
 	echo 'Instaladas mis extensiones de gnome.'
 
-	printf '\n'
+	printf '\n APT upgrading...'
+	sudo apt upgrade -y
+	printf '\n APT upgraded'
 	echo '¡Finalizada ejecución!'
 }
